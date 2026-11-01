@@ -5,9 +5,12 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "anti-filter-bubble-briefing"
 version = "0.1.0"
-description = "RSS daily briefing pipeline with diversity quota and optional Qwen/SMTP"
+description = "RSS daily briefing pipeline with Gemini classification, diversity quota, and email delivery"
 requires-python = ">=3.9"
-dependencies = []
+dependencies = [
+    "Flask==3.1.2",
+    "psycopg[binary]==3.2.12",
+]
 
 [project.scripts]
 briefing-pipeline = "briefing_pipeline.cli:main"
