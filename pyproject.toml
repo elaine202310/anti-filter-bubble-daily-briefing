@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "anti-filter-bubble-briefing"
+version = "0.1.0"
+description = "RSS daily briefing pipeline with diversity quota and optional Qwen/SMTP"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+briefing-pipeline = "briefing_pipeline.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
