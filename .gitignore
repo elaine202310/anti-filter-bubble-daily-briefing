@@ -6,3 +6,4 @@ data/*
 logs/*.log
 output/*
 !output/.gitkeep
+.vercel
