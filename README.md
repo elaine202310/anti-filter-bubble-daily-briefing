@@ -1,6 +1,6 @@
-# Anti-Filter-Bubble Daily Briefing
+# BroadView Daily
 
-A production-style Python project that turns six RSS feeds into a personalized daily news briefing. It uses Gemini for structured classification, summaries and importance scoring, preserves topic diversity, and supports explicit email subscriptions.
+**BroadView Daily** is a production-style Python project that turns six RSS feeds into a personalized daily news briefing. It uses Gemini for structured classification, summaries and importance scoring, preserves topic diversity, and supports explicit email subscriptions. The product name describes the user benefit: a broader view of the news beyond their usual topic preferences.
 
 [![Tests](https://github.com/elaine202310/anti-filter-bubble-daily-briefing/actions/workflows/tests.yml/badge.svg)](https://github.com/elaine202310/anti-filter-bubble-daily-briefing/actions/workflows/tests.yml)
 
